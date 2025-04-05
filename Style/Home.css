@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Hometitle';
+    src: url(../Fonts/Tanker-Regular.otf);
+}
+
+body{
+    background: linear-gradient(to top, #205781, #4F959D) !important;
+    position: relative !important;
+    transition: filter 0.2s !important;
+    height: 100vh !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+.Home{
+    color: #00355b;
+    font-family: 'Hometitle', sans-serif !important;
+    font-size: 40px !important;
+
+}
+.Home:hover{
+    color: black !important;
+    cursor: pointer !important;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 5 / span 5;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+        

@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'RestoHeader';
+    src: url(../Fonts/BattlesbridgeDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Headname';
+    src: url(../Fonts/Bravecho.otf);
+}
+
+@font-face {
+    font-family: 'dishheader';
+    src: url(../Fonts/PerfectbomberfreepersonaluseSc-PVqmd.otf);
+}
+
+@font-face {
+    font-family: 'dishDetails';
+    src: url(../Fonts/The\ Glorious-Regular.otf);
+}
+
+@font-face {
+    font-family: 'searchbar-btn';
+    src: url(../Fonts/lemon\ LEMONMILK-Medium.otf);
+}
+
+@font-face {
+    font-family: 'headN';
+    src: url(../Fonts/Melodrama_Complete/Melodrama-Medium.otf);
+}
+
+.dropdown-toggle-no-carret::after {
+    display:none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header {
+    padding-top: 3px !important;
+}
+
+body{
+    background-color: #222831 !important;
+    height: 100vh;
+}
+
+.input-group-text{
+    border-radius: 10px !important;
+    
+}
+
+.form-control{
+    left: 10px !important;
+}
+
+.contact1{
+    font-family: 'headN', sans-serif !important;
+    /* font-size: 30px !important; */
+    color: white !important;
+    margin-top: 60px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 20px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    height: 100vh !important;
+}
+
+.navbar-nav {
+    padding-left: 100px !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    font-family: 'dishheader', sans-serif !important;
+    font-size: 30px !important;
+    padding-top: 15px !important;
+    background-color: #1f5063 !important;
+}
+
+.nav-item {
+    padding: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    font-family: 'headN', sans-serif !important;
+    font-size: 25px !important;
+    padding-top: 15px !important;
+    color: #dea01e !important;
+}
+
+.nav-link {
+    color: #ffa17a !important;
+    margin-left: 100px !important;
+}
+.nav-link {
+    position: relative;
+    display: inline-block;
+    color: #ffa17a !important;
+    margin-left: 100px !important;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f98383;
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: 100%; 
+}
+
+
+.nav-link:hover {
+    color: #f98383 !important;
+
+}
+.nav-link {
+    position: relative;
+    display: inline-block;
+    color: #ffa17a !important;
+    margin-left: 100px !important;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #f98383;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #f98383 !important;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    color: #ffa17a !important;
+    margin-left: 100px !important;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: #2fad8c !important;
+    font-family: 'RestoHeader', sans-serif !important;
+    font-size: 30px !important;
+    padding-left: 50px !important;
+}
+
+.btn btn-outline-success {
+    background-color: #1f5063 !important;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    width: 85vh;
+    height: auto;
+    float: right;
+}
+
+.form-control {
+    background-color: #1f5063 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0px !important;
+    font-family: 'searchbar-btn', sans-serif !important;
+    font-size: 20px !important;
+    border-radius: 20px !important;
+}
+
+.btn {
+    background-color: #1f5063 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0px !important;
+    font-family: 'searchbar-btn', sans-serif !important;
+    font-size: 20px !important;
+    border-radius: 20px !important;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    filter: blur(8px);
+    transition: filter 0.1s ease-in-out;
+}
+
+.carousel-item.active img {
+    filter: blur(0px);
+}
+
+.carousel-control-prev {
+    top: 800px !important;
+    margin-left: 200px !important;
+}
+
+.carousel-control-next {
+    top: 800px !important;
+    margin-right: 200px !important;
+}
+
+.container-fluid-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dish-details {
+    width: 40%;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.iconhome{
+    color: #dea01e !important;
+    font-size: 50px !important;
+    margin-left: 100px !important;
+    display: flex !important;
+}
+
+.carousel {
+    width: 40%;
+}
+
+.carousel-item.active img {
+    filter: blur(0px);
+}
+
+#dish-title {
+    font-family: 'dishheader', sans-serif !important;
+    font-size: 100px !important;
+    color: #dea01e !important;
+    text-align: center !important;
+    top: 20px !important;
+}
+
+#dish-description {
+    font-family: 'dishDetails', sans-serif !important;
+    font-size: 30px !important;
+    color: #3c9152 !important;
+    text-align: center !important;
+    top: 20px !important;
+}
+
+#dish-price {
+    font-family: 'dishDetails', sans-serif !important;
+    font-size: 30px !important;
+    color: #3c9152 !important;
+    text-align: center !important;
+    top: 20px !important;
+}
+
+#dish-ingredients {
+    font-family: 'dishDetails', sans-serif !important;
+    font-size: 30px !important;
+    color: #3c9152 !important;
+    text-align: center !important;
+    top: 20px !important;
+}
+@keyframes rotateImage {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating-image {
+    animation: rotateImage 120s linear infinite;
+}
