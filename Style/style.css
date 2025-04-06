@@ -12,7 +12,10 @@
     font-family: 'dishheader';
     src: url(../Fonts/PerfectbomberfreepersonaluseSc-PVqmd.otf);
 }
-
+@font-face {
+    font-family: 'navtitle';
+    src: url(../Fonts/Tanker-Regular.otf);
+}
 @font-face {
     font-family: 'dishDetails';
     src: url(../Fonts/The\ Glorious-Regular.otf);
@@ -56,21 +59,25 @@ body{
 
 .contact1{
     font-family: 'headN', sans-serif !important;
-    /* font-size: 30px !important; */
     color: white !important;
-    margin-top: 60px !important;
-    align-items: center !important;
-    justify-content: center !important;
+    font-size: 25px;
+    min-height: 100px;
+    margin-top: 70px !important;
+    align-items: center !important;    
     display: flex !important;
     flex-direction: column !important;
-    padding-top: 20px !important;
-    padding-left: 100px !important;
-    padding-right: 100px !important;
     height: 100vh !important;
 }
 
+.navbar-collapse{
+    justify-content: space-between;
+}
+
 .navbar-nav {
-    padding-left: 100px !important;
+    /* padding-left: 100px !important; */
+    justify-content: space-between !important;
+    gap: 7rem;
+    margin-right: unset !important;
 }
 
 .dropdown-item {
@@ -85,21 +92,17 @@ body{
     padding: 0px !important;
     display: flex !important;
     flex-direction: column !important;
-    font-family: 'headN', sans-serif !important;
+    font-family: 'navtitle', sans-serif !important;
     font-size: 25px !important;
     padding-top: 15px !important;
     color: #dea01e !important;
 }
 
 .nav-link {
-    color: #ffa17a !important;
-    margin-left: 100px !important;
-}
-.nav-link {
     position: relative;
+    letter-spacing: 1px;
     display: inline-block;
     color: #ffa17a !important;
-    margin-left: 100px !important;
     text-decoration: none;
 }
 
@@ -126,9 +129,8 @@ body{
 .nav-link {
     position: relative;
     display: inline-block;
-    color: #ffa17a !important;
-    margin-left: 100px !important;
     text-decoration: none;
+    color: #ffa17a !important;
     transition: color 0.3s ease-in-out;
 }
 
@@ -152,21 +154,15 @@ body{
     left: 0;
 }
 
-.nav-link {
-    position: relative;
-    display: inline-block;
-    color: #ffa17a !important;
-    margin-left: 100px !important;
-    text-decoration: none;
-}
-
 .navbar-brand {
     color: #2fad8c !important;
     font-family: 'RestoHeader', sans-serif !important;
     font-size: 30px !important;
     padding-left: 50px !important;
 }
-
+.form-control input:invalid{
+    border-color: red !important;
+}
 .btn btn-outline-success {
     background-color: #1f5063 !important;
 }
@@ -222,7 +218,16 @@ body{
     top: 800px !important;
     margin-right: 200px !important;
 }
-
+.carousel-control-next-icon{
+    bottom: 190px;
+    left: 25px;
+    position: absolute;
+}
+.carousel-control-prev-icon{
+    bottom: 190px;
+    left: 25px;
+    position: absolute;
+}
 .container-fluid-2 {
     display: flex;
     align-items: center;
@@ -233,13 +238,14 @@ body{
 .dish-details {
     width: 40%;
     color: white;
+    position: relative;
+    left: 100px;
     font-family: 'Arial', sans-serif;
 }
 
 .iconhome{
     color: #dea01e !important;
     font-size: 50px !important;
-    margin-left: 100px !important;
     display: flex !important;
 }
 
@@ -282,6 +288,15 @@ body{
     text-align: center !important;
     top: 20px !important;
 }
+
+.back-to-home{
+    height: auto;
+    width: 50px;
+    position: relative;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
 @keyframes rotateImage {
     0% {
         transform: rotate(0deg);
@@ -303,3 +318,4 @@ body{
 .rotating-image {
     animation: rotateImage 120s linear infinite;
 }
+
