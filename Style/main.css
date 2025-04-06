@@ -37,8 +37,8 @@
 
 input.form-control,
 textarea.form-control {
-  border-color: gray; /* For example, green */
-  box-shadow: 0 0 0 0.2rem rgba(77, 81, 78, 0.521); /* Optional: for subtle glow */
+  border-color: gray; 
+  box-shadow: 0 0 0 0.2rem rgba(77, 81, 78, 0.521); 
 }
 
 .back-to-home:hover {
