@@ -166,6 +166,13 @@ body{
 .btn btn-outline-success {
     background-color: #1f5063 !important;
 }
+input:invalid {
+    border: 2px solid red !important;
+  }
+
+input:valid {
+    border: 2px solid green !important;
+  }
 
 .carousel,
 .carousel-inner,
