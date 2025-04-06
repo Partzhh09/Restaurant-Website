@@ -1,0 +1,46 @@
+.navbar-expand-lg .navbar-collapse {
+    display: block !important;
+}
+
+.search-input-bar::placeholder {
+    color: #88320d !important;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+.search-input-bar {
+    background-color: white !important;
+    color: #88320d !important;
+    letter-spacing: 0.2rem;
+    font-weight: 600 !important;
+}
+
+.btn-outline-success {
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.col-12::placeholder{
+    color: #88320d !important;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+input.form-control,
+textarea.form-control {
+  border-color: gray; /* For example, green */
+  box-shadow: 0 0 0 0.2rem rgba(77, 81, 78, 0.521); /* Optional: for subtle glow */
+}
+
+.back-to-home:hover {
+    transform: scale(1.2);
+}
