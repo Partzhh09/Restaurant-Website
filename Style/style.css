@@ -396,3 +396,7 @@ body {
         padding-right: 61px;
     }
 }
+footer{
+    position: relative;
+    top: 295px;
+}
