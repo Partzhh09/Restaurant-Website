@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description.textContent = activeItem.dataset.description;
     });
 });
-window.addEventListener('scroll', function () {
+window.addEventListener('scroll',() => {
     const backToTop = document.querySelector('.backToTop');
     if (window.scrollY > 300) {
         backToTop.style.display = 'block';
