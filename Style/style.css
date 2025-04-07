@@ -144,7 +144,6 @@ body {
     width: 100%;
 }
 
-
 .nav-link:hover {
     color: #f98383 !important;
 
@@ -325,6 +324,7 @@ body {
 .back-to-home {
     height: auto;
     width: 50px;
+    fill: white;
     position: relative;
     left: 0;
     top: 0;
