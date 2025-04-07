@@ -23,12 +23,11 @@
 .backToTop {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 10px;
     z-index: 999;
     display: none;
     scroll-behavior: smooth;
 }
-
 .col-12::placeholder{
     color: #88320d !important;
     letter-spacing: 0.2rem;
