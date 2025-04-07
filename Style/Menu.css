@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'RestoHeader';
+    src: url(../Fonts/BattlesbridgeDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Headname';
+    src: url(../Fonts/Bravecho.otf);
+}
+
+@font-face {
+    font-family: 'dishheader';
+    src: url(../Fonts/PerfectbomberfreepersonaluseSc-PVqmd.otf);
+}
+
+@font-face {
+    font-family: 'navtitle';
+    src: url(../Fonts/Tanker-Regular.otf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -78,8 +97,12 @@ body {
 }
 
 .card-text {
-    font-size: 0.95rem;
+    font-size: 1.95rem;
     color: #555;
+    font-family: 'dishheader', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 @media (max-width: 600px) {
