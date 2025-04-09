@@ -75,9 +75,16 @@ body {
     top: 10px;
     opacity: 0.3;
 }
-
+.dropdown-menu{
+    background-color: transparent !important;
+    border: none !important;
+}
 .dropdown-item {
+    border-radius: 10px !important;
+    position: relative;
+    right: 45px;
     color: white !important;
+    margin-top: 10px;
     font-family: 'dishheader', sans-serif !important;
     font-size: 30px !important;
     padding-top: 15px !important;
@@ -90,7 +97,6 @@ body {
     flex-direction: column !important;
     font-family: 'navtitle', sans-serif !important;
     font-size: 25px !important;
-    /* padding-top: 15px !important; */
     color: #dea01e !important;
 }
 
@@ -194,8 +200,7 @@ body {
 }
 
 .form-control {
-    /* background-color: #1f5063 !important; */
-    /* color: white !important; */
+
     border: none !important;
     border-radius: 0px !important;
     font-family: 'searchbar-btn', sans-serif !important;
