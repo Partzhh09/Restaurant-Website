@@ -9,15 +9,3 @@ document.addEventListener("DOMContentLoaded", () => {
         description.textContent = activeItem.dataset.description;
     });
 });
-// window.addEventListener('scroll',() => {
-//     const backToTop = document.querySelector('.backToTop');
-//     if (window.scrollY > 300) {
-//         backToTop.style.display = 'block';
-//         backToTop.style.opacity = '1';
-//         backToTop.style.transition = 'opacity 0.5s ease-in-out';
-//     } else {
-//         backToTop.style.display = 'none';
-//         backToTop.style.opacity = '0';
-//         backToTop.style.transition = 'opacity 0.5s ease-in-out';
-//     }
-// });
