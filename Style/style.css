@@ -33,9 +33,6 @@
     src: url(../Fonts/Melodrama_Complete/Melodrama-Medium.otf);
 }
 
-.dropdown-toggle-no-carret::after {
-    display: none;
-}
 
 html {
     scroll-behavior: smooth;

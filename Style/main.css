@@ -25,7 +25,8 @@
     bottom: 30px;
     right: 10px;
     z-index: 999;
-    display: none;
+    transition: all 1s ease-in-out;
+    /* display: none; */
     scroll-behavior: smooth;
 }
 .col-12::placeholder{
