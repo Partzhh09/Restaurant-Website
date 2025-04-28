@@ -23,10 +23,12 @@ header {
     color: black;
     border-radius: 5px;
 }
-h1{
+
+h1 {
     font-family: 'RestoHeader', sans-serif;
     font-size: 20px;
 }
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -35,11 +37,11 @@ main {
     margin: 30px 0;
 }
 
-.container:hover .dish{
+.container:hover .dish {
     filter: blur(2.5px);
 }
 
-.container:hover .dish:hover{
+.container:hover .dish:hover {
     filter: blur(0);
 }
 
@@ -48,12 +50,12 @@ main {
     width: 300px;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.dish:hover{
+.dish:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
